@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Samsung0403</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nameLabelStr">Введите ваше имя</string>
+    <string name="nameHintStr">Иван Иванов</string>
+    <string name="genderLabelStr">Выберите ваш пол</string>
+    <string name="genderMaleStr">Мужской</string>
+    <string name="genderFemaleStr">Женский</string>
+    <string name="ageLabelStr">Введите ваш возраст</string>
+    <string name="ageHintStr">18</string>
+    <string name="btnContinueStr">Продолжить</string>
 </resources>
