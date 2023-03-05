@@ -10,4 +10,8 @@
     <string name="ageLabelStr">Введите ваш возраст</string>
     <string name="ageHintStr">18</string>
     <string name="btnContinueStr">Продолжить</string>
+
+    <string name="userNameStr">Имя пользователя</string>
+    <string name="userGenderStr">Пол пользователя</string>
+    <string name="userAgeStr">Возраст пользователя</string>
 </resources>

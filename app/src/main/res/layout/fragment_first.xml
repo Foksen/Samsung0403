@@ -17,14 +17,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/nameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/nameHintStr"
+        android:hint="@string/nameHintStr"
         app:layout_constraintBottom_toTopOf="@id/genderLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nameInput"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
 
     <RadioGroup
         android:id="@+id/rbGenderGroup"
@@ -72,7 +74,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rbGenderGroup"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/ageInput"
