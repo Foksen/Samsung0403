@@ -15,4 +15,9 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
     }
+
+    // Обратить внимание на атрибуты FragmentContainerView в activity_main.xml,
+    // Обязательно должны быть defaultNavHost, navGraph. Идишники должны соответствовать!
+
+    // Не забывать про dependencies в gradle!
 }
